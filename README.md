@@ -1,1 +1,2 @@
-# gerador-cracha-js.
+# gerador-cracha-js
+Criamos este projeto em grupo para treinar tudo o que aprendemos nos componentes de Lógica de Programação e Versionamento e Colaboração. O programa pergunta nome, sobrenome, ano de nascimento e se a pessoa é aluna ativa. Depois, usa as respostas para montar um crachá virtual, que aparece na console do navegador. Além disso, aproveitamos para praticar o trabalho em equipe com o GitHub.
