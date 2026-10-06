@@ -14,6 +14,27 @@
     let sobrenome = prompt("Digite o seu sobrenome:");
     let anoNascimento = prompt("Digite o seu ano de nascimento:");
     let alunoAtivo = confirm("É aluno ativo da instituição?");
+
+    // Dupla B: tratando os dados que a Dupla A coletou
+
+    // o prompt sempre vai devolver texto, por isso, transformamos o ano em número para conseguir fazer a conta
+    let anoNumero = Number(anoNascimento);
+
+    // Calculamos a idade aproximada pois não sabemos se a pessoa fez aniversário esse ano 
+    let anoAtual = 2026;
+    let idade = anoAtual - anoNumero;
+
+    // deixando o sobrenome todo em letras maiúsculas para dar mais destaque no crachá
+    let sobrenomeMaiusculo = sobrenome.toUpperCase();
+
+    // contando o número de letras do primeiro nome
+    let quantidadeLetras = nome.length;
+
+    // Dupla B: montando o crachá e mostrando na console
+    console.log("CRACHÁ VIRTUAL: " + sobrenomeMaiusculo + ", " + nome);
+    console.log("Idade estimada: " + idade + " anos.");
+    console.log("O seu primeiro nome tem " + quantidadeLetras + " letras.");
+    console.log("Estatuto de aluno ativo: " + alunoAtivo);
   </script>
 
 </body>
